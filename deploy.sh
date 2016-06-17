@@ -27,6 +27,7 @@ git config --global mergetool.prompt false
 
 
 # clone repos
+# 如果code_tools_repo不存在就git clone一份
 cd ~
 if [ ! -e code_tools_repo ]; then
 	git clone https://github.com/you-n-g/code_tools_repo
